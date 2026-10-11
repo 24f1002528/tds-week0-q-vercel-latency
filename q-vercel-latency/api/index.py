@@ -77,7 +77,7 @@ def analytics(request: AnalyticsRequest):
         ]
 
         uptimes = [
-            float(record["uptime"])
+            float(record["uptime_pct"])
             for record in selected
         ]
 
